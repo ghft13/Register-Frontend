@@ -79,7 +79,7 @@ const Login = () => {
 
   return (
     <div className="bg-signupcolor flex items-center justify-center h-screen">
-      <div className="w-full max-w-sm bg-minicolor rounded-lg shadow-md p-6">
+      <div className="w-full max-w-sm bg-blue-600 rounded-lg shadow-md p-10">
         <h2 className="text-2xl font-bold mb-6 text-center">Login</h2>
         {flashMessage.message && (
           <div

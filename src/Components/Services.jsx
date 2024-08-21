@@ -46,6 +46,7 @@ const Services = () => {
         if (response.status === 200) {
           console.log("User authenticated");
           setUser(response.data.user);
+        
         } else {
           console.log("Unexpected response:", response);
         }

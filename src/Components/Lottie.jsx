@@ -31,7 +31,7 @@ const LottieAnimation = () => {
           </div>
         )}
       </div>
-      <div className="z-0 absolute left-0 top-0 w-full  h-full bg-white overflow-y-hidden">
+      <div className="z-0 absolute left-0 top-0 w-full  h-full bg-white xl:overflow-y-hidden">
         <Head />
       </div>
     </>

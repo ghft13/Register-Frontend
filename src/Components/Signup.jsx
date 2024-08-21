@@ -80,7 +80,7 @@ const Signup = () => {
           {flashMessage.message}
         </div>
       )}
-      <div className="w-full max-w-sm bg-minicolor rounded-lg shadow-md p-6">
+      <div className="w-full max-w-sm bg-blue-400 rounded-lg shadow-md p-10 ">
         <h2 className="text-2xl font-bold mb-6 text-center">Sign Up</h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
