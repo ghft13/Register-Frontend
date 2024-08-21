@@ -114,7 +114,7 @@ const Appointment = () => {
 
     try {
       const response = await axios.post(
-        `http://localhost:5000/api/auth/book-appointment`,
+        `${baseurl}/api/auth/book-appointment`,
         { service: selectedservice },
         { withCredentials: true }
       );
