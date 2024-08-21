@@ -14,6 +14,7 @@ const Services = () => {
   const [user, setUser] = useState(null);
 
  
+  //Just
   useEffect(() => {
     gsap.to(".maintxt", {
       scrollTrigger: {
