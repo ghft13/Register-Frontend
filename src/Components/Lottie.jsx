@@ -15,7 +15,7 @@ const LottieAnimation = () => {
 
   useEffect(() => {
     gsap.to(".lottie-animation", {
-      y: -750,
+      y: -950,
       delay: 3,
       duration: 3,
       ease: "power3.out",
