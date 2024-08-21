@@ -114,7 +114,7 @@ const Appointment = () => {
 
     try {
       const response = await axios.post(
-        `${baseurl}/api/auth/book-appointment`,
+        `http://localhost:5000/api/auth/book-appointment`,
         { service: selectedservice },
         { withCredentials: true }
       );
@@ -144,7 +144,7 @@ const Appointment = () => {
   }, [flashmessage]);
 
   return (
-    <div className="h-[150vh] w-screen bg-gray-600 services">
+    <div className=" w-screen b services">
       <h1 className="text-center pt-10 text-4xl text-white gupter-regular">
         Choose Your Services
       </h1>
