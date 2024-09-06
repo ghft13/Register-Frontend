@@ -44,17 +44,15 @@ const Services = () => {
           withCredentials: true,
         });
 
-        if (response.status === 200) {
+        if (response.data.type === "success") {
           console.log("User authenticated");
           setUser(response.data.user);
-        
         } else {
           console.log("Unexpected response:", response);
         }
       } catch (error) {
         if (error.response && error.response.status === 401) {
           console.log("User not authenticated");
-
           navigate("/Login", {
             state: { flashMessage: "You Need to login First" },
           });
