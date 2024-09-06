@@ -52,7 +52,7 @@ const Head = () => {
   }, []);
   return (
     <>
-      <div className="nav flex  items-center  justify-around  p-0 text-center md:flex-row  w-full overflow-y-hidden">
+      <div className=" bg-gray-600 nav flex  items-center  justify-around  p-0 text-center md:flex-row  w-full overflow-y-hidden">
         <h2 className="xl:pl-5  font-bold  tracking-wide opacity-0 xl:text-xl xl:pt-2 xl:mt-4 pt-5">
           <span className="xl:text-xl font  text-sm">
             BEAUT<span className="text-yellow-600">y.</span>
@@ -94,7 +94,7 @@ const Head = () => {
         </div>
       </div>
 
-      <div className="flex justify-center pt-20 w-full  ">
+      <div className="flex justify-center pt-20 w-full  bg-gray-600">
         <div className="">
           <div className="flex">
             <img
