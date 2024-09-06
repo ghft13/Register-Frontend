@@ -28,7 +28,7 @@ const Signup = () => {
         `${baseurl}/api/auth/register`,
         formData,
         {
-          Credentials: true,
+          withCredentials: true,
         }
       );
 
