@@ -18,7 +18,7 @@ body {
 }
 
 .box{
-  /* background-image: url(../public/pexels.jpg); */
+  background-image: url(../public/one_optimized_.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,7 +27,7 @@ body {
 
 
 .box1{
-  /* background-image: url(../public/two.jpg); */
+  background-image: url(../public/two_optimized_.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -37,7 +37,7 @@ body {
 
 
 .box2{
-  /* background-image: url(../public/three.jpg); */
+  background-image: url(../public/three_optimized_.jpg); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -48,7 +48,7 @@ body {
 
 
 .box3{
-  /* background-image: url(../public/four.jpg); */
+  background-image: url(../public/four_optimized_.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -64,7 +64,7 @@ body {
 
 .inner:hover {
   backdrop-filter:blur(15px);
-  /* background-image: url('../public//threeone.jpg'); */
+   background-image: url('../public//threeone_optimized_.jpg'); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -76,13 +76,13 @@ body {
 
 
 .backimage{
-  /* background-image: url('../public//threeone.jpg'); */
+   background-image: url('../public//threeone_optimized_.jpg'); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
-  color: transparent;
+   color: transparent; 
 }
 
 
@@ -102,7 +102,7 @@ body {
   background-color: #c1c1c125;
   box-shadow: -20px -20px 2px #00000072;
   border-radius: 10px;
-  /* background-image: url("../public/four.jpg"); */
+  background-image: url("../public/four_optimized_.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -114,7 +114,7 @@ body {
   background-color: #c1c1c125;
   box-shadow: -20px -20px 2px #00000072;
   border-radius: 10px;
-  /* background-image: url("../public/three.jpg"); */
+  background-image: url("../public/three_optimized_.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -125,7 +125,7 @@ body {
   background-color: #c1c1c125;
   box-shadow: -20px -20px 2px #00000072;
   border-radius: 10px;
-  /* background-image: url("../public/two.jpg"); */
+  background-image: url("../public/two_optimized_.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -137,7 +137,7 @@ body {
 
 
 .container-main{
-  /* background-image: url('../public/pexels1.jpg'); */
+  background-image: url('../public/pexels1_optimized_.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -151,7 +151,7 @@ body {
 } */
 
 .logout{
-  /* background-image: url('../public/pexels.jpg'); */
+  background-image: url('../public/pexels.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; 
@@ -159,7 +159,7 @@ body {
 }
 
 .username{
-  /* background-image: url('../public/pexels1.jpg'); */
+   background-image: url('../public/pexels1_optimized_.jpg'); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; 
@@ -169,7 +169,7 @@ body {
 }
 
 .client-sec{
-  /* background-image: url('../public/clientback.jpg'); */
+   background-image: url('../public/clientback_optimized_.jpg'); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; 

@@ -24,81 +24,70 @@ const Appointment = () => {
     const service = [
       {
         id: 1,
-        imageUrl:
-          "https://images.pexels.com/photos/5069401/pexels-photo-5069401.jpeg?auto=compress&cs=tinysrgb&w=600",
+        imageUrl: "appointone.webp",
         title: "Deep Cleansing Facial",
         price: "800",
         duration: "50min",
       },
       {
         id: 2,
-        imageUrl:
-          "https://images.pexels.com/photos/3738349/pexels-photo-3738349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        imageUrl: "appointmenttwo.webp",
         title: "Massage Therapy",
         price: "1200",
         duration: "60min",
       },
       {
         id: 3,
-        imageUrl: "laser.jpg",
+        imageUrl: "laser_optimized_.jpg",
         title: "Laser Treatments",
         price: "900",
         duration: "45min",
       },
       {
         id: 4,
-        imageUrl:
-          "https://images.pexels.com/photos/973405/pexels-photo-973405.jpeg?auto=compress&cs=tinysrgb&w=600",
+        imageUrl: "appointmentthree_optimized_.jpeg",
         title: "Manicures",
         price: "1500",
         duration: "70min",
       },
       {
         id: 5,
-        imageUrl:
-          "https://images.pexels.com/photos/2332376/pexels-photo-2332376.jpeg?auto=compress&cs=tinysrgb&w=600",
+        imageUrl: "appointmentfourjpeg_optimized_.jpeg",
         title: "Bridal Makeup",
         price: "850",
         duration: "40min",
       },
       {
         id: 6,
-        imageUrl:
-          "https://images.pexels.com/photos/3065209/pexels-photo-3065209.jpeg?auto=compress&cs=tinysrgb&w=600",
+        imageUrl: "appointmentfive_optimized_.jpeg",
         title: "Hair Style",
         price: "1300",
         duration: "60min",
       },
       {
         id: 7,
-        imageUrl:
-          "https://images.pexels.com/photos/2772099/pexels-photo-2772099.jpeg?auto=compress&cs=tinysrgb&w=600",
+        imageUrl: "appointmentsix_optimized_.jpeg",
         title: "Eyebrow Shaping",
         price: "1000",
         duration: "55min",
       },
       {
         id: 8,
-        imageUrl:
-          "https://images.pexels.com/photos/1321916/pexels-photo-1321916.jpeg?auto=compress&cs=tinysrgb&w=600",
+        imageUrl: "appointmentsevenjpeg_optimized_.jpeg",
         title: "Hair Coloring",
         price: "1400",
         duration: "65min",
       },
-
     ];
 
+    const filterservice = val
+      ? service.filter((s) => s.title.toLowerCase().includes(val))
+      : service;
 
-
-    const filterservice=val?service.filter((s)=>
-      s.title.toLowerCase().includes(val)
-    ):service
-
-
-    console.log(filterservice)
+    console.log(filterservice);
 
     return filterservice.map((service) => (
-      <Card key={service.id} service={service} addservice={addservice} ></Card>
+      <Card key={service.id} service={service} addservice={addservice}></Card>
     ));
   };
 
