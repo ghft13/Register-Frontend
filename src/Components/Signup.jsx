@@ -27,7 +27,9 @@ const Signup = () => {
       const response = await axios.post(
         `${baseurl}/api/auth/register`,
         formData,
-        { withCredentials: true }
+        {
+          Credentials: true,
+        }
       );
 
       setFlashMessage({
@@ -36,7 +38,6 @@ const Signup = () => {
       });
 
       if (response.data.type === "success") {
-        localStorage.setItem("token", response.data.token);
         navigate("/Services");
       }
 
