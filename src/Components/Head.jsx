@@ -127,7 +127,7 @@ const Head = () => {
               alt="makeup"
             ></img>
             <h1 className="text-3xl xl:text-7xl tracking-wide font-bold font2 backimage gupter-regular firstline">
-              Appointment
+              {/* Appointment */}
             </h1>
           </div>
 
