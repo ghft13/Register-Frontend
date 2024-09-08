@@ -46,6 +46,7 @@ const Services = () => {
 
         if (response.data.type === "success") {
           console.log("User authenticated");
+          console.log(response.data.user)
           setUser(response.data.user);
         } else {
           console.log("Unexpected response:", response);
@@ -61,7 +62,6 @@ const Services = () => {
         }
       }
     };
-
     checkAuth();
   }, [navigate]);
 

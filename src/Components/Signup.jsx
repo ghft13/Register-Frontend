@@ -38,7 +38,7 @@ const Signup = () => {
       });
 
       if (response.data.type === "success") {
-        navigate("/Services");
+        navigate("/Appointment");
       }
 
       setFormData({

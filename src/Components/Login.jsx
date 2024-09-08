@@ -44,8 +44,8 @@ const Login = () => {
       });
 
       if (response.data.type === "success") {
-        navigate("/Services");
-        localStorage.setItem("token", response.data.token); // <-- Not needed if using cookies for JWT storage
+        navigate("/Appointment");
+     
       }
       
 
