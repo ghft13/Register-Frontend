@@ -45,7 +45,6 @@ const Login = () => {
 
       if (response.data.type === "success") {
         navigate("/Appointment");
-     
       }
       
 
